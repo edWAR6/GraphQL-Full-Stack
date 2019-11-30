@@ -12,4 +12,4 @@ const resolvers = {
   }
 };
 
-module.exports = resolvers;
+module.exports = resolve
