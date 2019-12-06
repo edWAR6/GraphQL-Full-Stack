@@ -1,4 +1,4 @@
-import '../styles/style.css';
+import '../styles/styles.css';
 
 import { Col, Container, Row } from 'reactstrap';
 import { PostForm, PostList } from '../components';
