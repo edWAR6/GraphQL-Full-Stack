@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 
 import { withAddPost } from '../providers';
 
-@withAddPost
-export default class PostForm extends Component {
+class PostForm extends Component {
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
@@ -38,3 +37,5 @@ export default class PostForm extends Component {
     );
   }
 }
+
+export default withAddPost(PostForm);

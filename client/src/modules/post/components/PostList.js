@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export default class PostList extends Component {
   constructor(props) {
     super (props);
-    this.showPost = this.showPost.bind(this);
+    this.showPosts = this.showPosts.bind(this);
   }
 
   showPosts() {
