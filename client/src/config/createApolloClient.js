@@ -1,7 +1,7 @@
 import ApolloClient from 'apollo-boost';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:3000/graphql'
+  uri: 'https://apollo-app-b360.herokuapp.com/graphql'
 });
 
 export default client;
