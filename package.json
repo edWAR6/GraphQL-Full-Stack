@@ -33,7 +33,7 @@
     "server": "nodemon ./server/server.js",
     "client": "webpack-dev-server --mode development --open",
     "start-dev": "concurrently \"npm run server\" \"npm run client\"",
-    "start": "",
+    "start": "node server/server.js",
     "build": "webpack --mode production"
   },
   "eslintConfig": {
